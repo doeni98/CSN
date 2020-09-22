@@ -1,0 +1,157 @@
+m255
+K4
+z2
+!s11e vcom 2020.1_1 2020.03, Mar  4 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/reds/Desktop/cours_REDS/CSN/Bourqui/csn/labo/lab1/bin_lin_data/bin_lin/comp
+T_opt
+!s110 1600788075
+V9]R`<l;]7=nXb0d1C6a>z1
+04 11 6 work console_sim struct 1
+=1-000ae431a4f1-5f6a166a-f179e-2286
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+Z2 OL;O;2020.1_1;71
+R0
+T_opt1
+Z3 !s110 1600790073
+VjCUdP^PKQDW<1lmlgT8=93
+04 15 10 work bin_lin_2to4_tb test_bench 1
+=1-000ae431a4f1-5f6a1e39-bdfe3-327b
+o-quiet -auto_acc_if_foreign -work work +acc
+R1
+n@_opt1
+R2
+Ebin_lin_2to4
+Z4 w1600787732
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+R0
+Z7 8../src/bin_lin_2to4.vhd
+Z8 F../src/bin_lin_2to4.vhd
+l0
+Z9 L24 1
+Vn8njY[_YRcH?Se<B[>c[l0
+!s100 PF;_IYiEM6?D`Y]3YcGEk1
+Z10 OL;C;2020.1_1;71
+32
+R3
+!i10b 1
+Z11 !s108 1600790073.000000
+Z12 !s90 -reportprogress|300|-work|work|../src/bin_lin_2to4.vhd|
+Z13 !s107 ../src/bin_lin_2to4.vhd|
+!i113 0
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
+Atdv
+R5
+R6
+Z16 DEx4 work 12 bin_lin_2to4 0 22 n8njY[_YRcH?Se<B[>c[l0
+!i122 4
+l34
+L32 11
+V?57AOL><m`]QXl8XS_GjW0
+!s100 9o<e1CVFW4;KN0`J:TG4L0
+R10
+32
+R3
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Ebin_lin_2to4_tb
+R4
+Z17 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R5
+R6
+!i122 5
+R0
+Z18 8../src_tb/bin_lin_2to4_tb.vhd
+Z19 F../src_tb/bin_lin_2to4_tb.vhd
+l0
+R9
+V_^>P8KG_HnORgi0^o7U4]3
+!s100 3R<hg[A6z?J>9l9fg_`8m3
+R10
+32
+R3
+!i10b 1
+R11
+Z20 !s90 -reportprogress|300|-work|work|../src_tb/bin_lin_2to4_tb.vhd|
+Z21 !s107 ../src_tb/bin_lin_2to4_tb.vhd|
+!i113 0
+R14
+R15
+Atest_bench
+R16
+R17
+R5
+R6
+DEx4 work 15 bin_lin_2to4_tb 0 22 _^>P8KG_HnORgi0^o7U4]3
+!i122 5
+l51
+L27 88
+VNlV__f]6z<hH>`P;MlPaI0
+!s100 ORZ`??RMM1X?7g87@Tn?V2
+R10
+32
+R3
+!i10b 1
+R11
+R20
+R21
+!i113 0
+R14
+R15
+Econsole_sim
+R4
+R5
+R6
+!i122 3
+R0
+Z22 8/home/reds/Desktop/cours_REDS/CSN/Bourqui/csn/labo/lab1/bin_lin_data/bin_lin/src_tb/console_sim.vhd
+Z23 F/home/reds/Desktop/cours_REDS/CSN/Bourqui/csn/labo/lab1/bin_lin_data/bin_lin/src_tb/console_sim.vhd
+l0
+R9
+VSP_RlNM_keWAEg74iA<:M0
+!s100 DG;ZDMdEbgPaW:h_FoikY3
+R10
+32
+Z24 !s110 1600788042
+!i10b 1
+Z25 !s108 1600788042.000000
+Z26 !s90 -reportprogress|300|-work|work|/home/reds/Desktop/cours_REDS/CSN/Bourqui/csn/labo/lab1/bin_lin_data/bin_lin/src_tb/console_sim.vhd|
+Z27 !s107 /home/reds/Desktop/cours_REDS/CSN/Bourqui/csn/labo/lab1/bin_lin_data/bin_lin/src_tb/console_sim.vhd|
+!i113 0
+R14
+R15
+Astruct
+R16
+R5
+R6
+DEx4 work 11 console_sim 0 22 SP_RlNM_keWAEg74iA<:M0
+!i122 3
+l96
+L82 32
+VP;VB3T=?VR[iLQIIoTQfe1
+!s100 U?hFSgS3?bTZjT>1M`bh;2
+R10
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 0
+R14
+R15

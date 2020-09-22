@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, /home/reds/Desktop/cours_REDS/CSN/Bourqui/csn/labo/lab1/bin_lin_data/bin_lin/src/bin_lin_2to4.vhd
+source_file = 1, /home/reds/Desktop/cours_REDS/CSN/Bourqui/csn/labo/lab1/bin_lin_data/bin_lin/pr/db/bin_lin_2to4.cbx.xml
+source_file = 1, /opt/intelFPGA/13.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /opt/intelFPGA/13.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /opt/intelFPGA/13.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /opt/intelFPGA/13.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = bin_lin_2to4
+instance = comp, \bin_i[1]~I\, bin_i[1], bin_lin_2to4, 1
+instance = comp, \bin_i[0]~I\, bin_i[0], bin_lin_2to4, 1
+instance = comp, \Mux1~0\, Mux1~0, bin_lin_2to4, 1
+instance = comp, \Mux1~1\, Mux1~1, bin_lin_2to4, 1
+instance = comp, \lin_o[0]~I\, lin_o[0], bin_lin_2to4, 1
+instance = comp, \lin_o[1]~I\, lin_o[1], bin_lin_2to4, 1
+instance = comp, \lin_o[2]~I\, lin_o[2], bin_lin_2to4, 1
+instance = comp, \lin_o[3]~I\, lin_o[3], bin_lin_2to4, 1

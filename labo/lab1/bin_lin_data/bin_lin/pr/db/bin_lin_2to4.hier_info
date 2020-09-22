@@ -1,0 +1,12 @@
+|bin_lin_2to4
+bin_i[0] => Mux0.IN5
+bin_i[0] => Mux1.IN5
+bin_i[1] => Mux0.IN4
+bin_i[1] => Mux1.IN4
+bin_i[1] => lin_o[2].DATAIN
+lin_o[0] <= <VCC>
+lin_o[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+lin_o[2] <= bin_i[1].DB_MAX_OUTPUT_PORT_TYPE
+lin_o[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
