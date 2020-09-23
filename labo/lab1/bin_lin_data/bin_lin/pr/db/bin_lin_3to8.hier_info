@@ -1,0 +1,32 @@
+|bin_lin_3to8
+bin_i[0] => LessThan0.IN6
+bin_i[0] => LessThan1.IN6
+bin_i[0] => LessThan2.IN6
+bin_i[0] => LessThan3.IN6
+bin_i[0] => LessThan4.IN6
+bin_i[0] => LessThan5.IN6
+bin_i[0] => Equal0.IN2
+bin_i[1] => LessThan0.IN5
+bin_i[1] => LessThan1.IN5
+bin_i[1] => LessThan2.IN5
+bin_i[1] => LessThan3.IN5
+bin_i[1] => LessThan4.IN5
+bin_i[1] => LessThan5.IN5
+bin_i[1] => Equal0.IN1
+bin_i[2] => LessThan0.IN4
+bin_i[2] => LessThan1.IN4
+bin_i[2] => LessThan2.IN4
+bin_i[2] => LessThan3.IN4
+bin_i[2] => LessThan4.IN4
+bin_i[2] => LessThan5.IN4
+bin_i[2] => Equal0.IN0
+lin_o[0] <= <VCC>
+lin_o[1] <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+lin_o[2] <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+lin_o[3] <= LessThan2.DB_MAX_OUTPUT_PORT_TYPE
+lin_o[4] <= LessThan3.DB_MAX_OUTPUT_PORT_TYPE
+lin_o[5] <= LessThan4.DB_MAX_OUTPUT_PORT_TYPE
+lin_o[6] <= LessThan5.DB_MAX_OUTPUT_PORT_TYPE
+lin_o[7] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

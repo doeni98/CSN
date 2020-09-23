@@ -12,50 +12,116 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-do ../run_comp_bin_lin_2to4_tb.tcl
+do ../run_comp_bin_lin_3to8_tb.tcl
 # ** Warning: (vlib-34) Library already exists at "work".
 # QuestaSim-64 vmap 2020.1_1 Lib Mapping Utility 2020.03 Mar  4 2020
 # vmap work work 
 # Modifying modelsim.ini
 # QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
-# Start time: 17:54:33 on Sep 22,2020
-# vcom -reportprogress 300 -work work ../src/bin_lin_2to4.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity bin_lin_2to4
-# -- Compiling architecture tdv of bin_lin_2to4
-# End time: 17:54:33 on Sep 22,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
-# Start time: 17:54:33 on Sep 22,2020
-# vcom -reportprogress 300 -work work ../src_tb/bin_lin_2to4_tb.vhd 
+# Start time: 11:15:55 on Sep 23,2020
+# vcom -reportprogress 300 -work work ../src/bin_lin_3to8.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity bin_lin_2to4_tb
-# -- Compiling architecture test_bench of bin_lin_2to4_tb
-# -- Loading entity bin_lin_2to4
-# ** Warning: ../src_tb/bin_lin_2to4_tb.vhd(46): (vcom-1236) Shared variables must be of a protected type.
-# End time: 17:54:33 on Sep 22,2020, Elapsed time: 0:00:00
+# -- Compiling entity bin_lin_3to8
+# -- Compiling architecture flot_don of bin_lin_3to8
+# End time: 11:15:55 on Sep 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 11:15:55 on Sep 23,2020
+# vcom -reportprogress 300 -work work ../src_tb/bin_lin_3to8_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bin_lin_3to8_tb
+# -- Compiling architecture test_bench of bin_lin_3to8_tb
+# -- Loading entity bin_lin_3to8
+# ** Warning: ../src_tb/bin_lin_3to8_tb.vhd(46): (vcom-1236) Shared variables must be of a protected type.
+# End time: 11:15:55 on Sep 23,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-# vsim -voptargs=""+acc"" work.bin_lin_2to4_tb 
-# Start time: 17:54:33 on Sep 22,2020
-# ** Note: (vsim-3812) Design is being optimized...
+# vsim -voptargs=""+acc"" work.bin_lin_3to8_tb 
+# Start time: 11:15:55 on Sep 23,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading work.bin_lin_2to4_tb(test_bench)#1
-# Loading work.bin_lin_2to4(tdv)#1
+# Loading work.bin_lin_3to8_tb(test_bench)#1
+# Loading work.bin_lin_3to8(flot_don)#1
 run -all
 # ** Note: debut de simulation 
-#    Time: 0 ns  Iteration: 0  Instance: /bin_lin_2to4_tb
+#    Time: 0 ns  Iteration: 0  Instance: /bin_lin_3to8_tb
+# ** Note:  erreur pour Val_Bin = 1
+#    Time: 150 ns  Iteration: 0  Instance: /bin_lin_3to8_tb
+# ** Note:  erreur pour Val_Bin = 2
+#    Time: 250 ns  Iteration: 0  Instance: /bin_lin_3to8_tb
+# ** Note:  erreur pour Val_Bin = 3
+#    Time: 350 ns  Iteration: 0  Instance: /bin_lin_3to8_tb
+# ** Note:  erreur pour Val_Bin = 4
+#    Time: 450 ns  Iteration: 0  Instance: /bin_lin_3to8_tb
+# ** Note:  erreur pour Val_Bin = 5
+#    Time: 550 ns  Iteration: 0  Instance: /bin_lin_3to8_tb
+# ** Note:  erreur pour Val_Bin = 6
+#    Time: 650 ns  Iteration: 0  Instance: /bin_lin_3to8_tb
+# ** Note:  erreur pour Val_Bin = 7
+#    Time: 750 ns  Iteration: 0  Instance: /bin_lin_3to8_tb
+# ** Note:  erreur pour Val_Bin = 7
+#    Time: 850 ns  Iteration: 0  Instance: /bin_lin_3to8_tb
+# ** Note:  *** VOUS AVEZ ENCORE UN PEU DE TRAVAIL, COURAGE *** 
+#    Time: 900 ns  Iteration: 0  Instance: /bin_lin_3to8_tb
+# ** Note:  *** vous avez 8 erreur(s) *** 
+#    Time: 900 ns  Iteration: 0  Instance: /bin_lin_3to8_tb
+run -all
+do ../run_comp_bin_lin_3to8_tb.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vmap 2020.1_1 Lib Mapping Utility 2020.03 Mar  4 2020
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 11:17:38 on Sep 23,2020
+# vcom -reportprogress 300 -work work ../src/bin_lin_3to8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bin_lin_3to8
+# -- Compiling architecture flot_don of bin_lin_3to8
+# End time: 11:17:38 on Sep 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 11:17:38 on Sep 23,2020
+# vcom -reportprogress 300 -work work ../src_tb/bin_lin_3to8_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bin_lin_3to8_tb
+# -- Compiling architecture test_bench of bin_lin_3to8_tb
+# -- Loading entity bin_lin_3to8
+# ** Warning: ../src_tb/bin_lin_3to8_tb.vhd(46): (vcom-1236) Shared variables must be of a protected type.
+# End time: 11:17:38 on Sep 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 11:17:39 on Sep 23,2020, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" work.bin_lin_3to8_tb 
+# Start time: 11:17:39 on Sep 23,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bin_lin_3to8_tb(test_bench)#1
+# Loading work.bin_lin_3to8(flot_don)#1
+run -all
+# ** Note: debut de simulation 
+#    Time: 0 ns  Iteration: 0  Instance: /bin_lin_3to8_tb
 # ** Note:  *** VOUS ETES LES MEILLEURS *** 
-#    Time: 500 ns  Iteration: 0  Instance: /bin_lin_2to4_tb
+#    Time: 900 ns  Iteration: 0  Instance: /bin_lin_3to8_tb
 # ** Note:  *** BRAVO, pas d'erreur *** 
-#    Time: 500 ns  Iteration: 0  Instance: /bin_lin_2to4_tb
-quit
-# End time: 17:57:05 on Sep 22,2020, Elapsed time: 0:02:32
+#    Time: 900 ns  Iteration: 0  Instance: /bin_lin_3to8_tb
+# Break key hit
+# Break key hit
+# End time: 11:36:36 on Sep 23,2020, Elapsed time: 0:18:57
 # Errors: 0, Warnings: 0
