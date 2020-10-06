@@ -1,18 +1,17 @@
-
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity bin_lin_4a16 is 
+entity bin_lin_4to16 is
         port (bin_i: in std_logic_vector(3 downto 0);
-            lin_o : out std_logic_vector(15 downto 0);
+            lin_o : out std_logic_vector(15 downto 0));
 end bin_lin_4to16;
 
 
 architecture flot_don of bin_lin_4to16 is
- 
+
 begin
-    
+
         lin_o(0) <= '1' when  true  else
                     '0';
         lin_o(1) <= '1' when  bin_i >= "0001"  else
@@ -45,5 +44,5 @@ begin
                     '0';
         lin_o(15) <= '1' when  bin_i = "1111" else
                     '0';
-    
+
 end flot_don;

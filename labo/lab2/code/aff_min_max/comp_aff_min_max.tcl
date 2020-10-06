@@ -4,7 +4,7 @@
 #
 # Fichier      : comp_aff_min_max.do
 # Description  : Script de compilation des fichiers
-# 
+#
 # Auteur       : Etienne Messerli
 # Date         : 12.03.2019
 # Version      : 1.0
@@ -14,18 +14,18 @@
 #
 #--| Modifications |--------------------------------------------------------
 # Ver  Aut.  Date   Description
-#                         
+#
 ############################################################################
 
 
-#create library work        
+#create library work
 vlib work
 #map library work to work
 vmap work work
 
  # Aff_min_max file compilation
- ajouter vos fichiers a compiler 
- .....
+vcom -reportprogress 300 -work work   ../src/bin_lin_4to16.vhd
+vcom -reportprogress 300 -work work   ../src/marche_normale.vhd
 vcom -reportprogress 300 -work work   ../src/min_max_top.vhd
 
  # test-bench compilation

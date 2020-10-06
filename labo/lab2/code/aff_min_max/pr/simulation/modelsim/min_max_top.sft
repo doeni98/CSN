@@ -1,0 +1,4 @@
+set tool_name "QuestaSim (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {min_max_top.vho min_max_top_vhd.sdo}}
+}
