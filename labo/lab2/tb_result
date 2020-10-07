@@ -1,0 +1,24 @@
+# End time: 09:52:49 on Oct 07,2020, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" work.min_max_top_tb
+# Start time: 09:52:49 on Oct 07,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.min_max_top_tb(struct)#1
+# Loading work.min_max_top(struct)#1
+# Loading work.bin_lin_4to16(flot_don)#1
+# Loading work.marche_normale(comport)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.min_max_top_tester(tester)#1
+run -all
+# ** Note: >> Debut de la simulation
+#    Time: 500001 ns  Iteration: 0  Instance: /min_max_top_tb/tst
+# ** Note: >> Nombre d'erreur(s) detectee(s): 0
+#    Time: 8704500001 ns  Iteration: 0  Instance: /min_max_top_tb/tst
+# ** Note: >> Bravo, votre composant à passé tous les cas.
+#    Time: 8704500001 ns  Iteration: 0  Instance: /min_max_top_tb/tst
+# ** Note: >> Fin de la simulation
+#    Time: 8704500001 ns  Iteration: 0  Instance: /min_max_top_tb/tst

@@ -4,19 +4,19 @@
 --
 -- Fichier      : min_max_top_tb.vhd
 --
--- Description  : Banc de test automatique (test bench) pour 
+-- Description  : Banc de test automatique (test bench) pour
 --                affichage min-max (struct connection uut avec tester)
--- 
+--
 -- Auteur       : Etienne Messerli
 -- Date         : 29.09.2014
 -- Version      : 0.0
--- 
+--
 -- Utilise      : Manipulation de laboratoire du cours CSN
---                Banc de test automatique (test bench) 
--- 
+--                Banc de test automatique (test bench)
+--
 --| Modifications |------------------------------------------------------------
 -- Version   Auteur Date               Description
--- 
+--
 -------------------------------------------------------------------------------
 library ieee;
   use ieee.std_logic_1164.ALL;
@@ -52,7 +52,7 @@ architecture struct of min_max_top_tb is
 
    component min_max_top_tester
    generic (
-      mode_normal_optionnel : boolean := TRUE
+      mode_normal_optionnel : boolean := FALSE
    );
    port (
       leds_obs : in     std_logic_vector (15 downto 0);
