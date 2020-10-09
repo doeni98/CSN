@@ -1,3 +1,7 @@
+-- -----------------
+-- Labo 2 CSN 2020
+-- Auteur : Denis Bourqui
+-- -----------------
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -6,7 +10,6 @@ entity bin_lin_4to16 is
         port (bin_i: in std_logic_vector(3 downto 0);
             lin_o : out std_logic_vector(15 downto 0));
 end bin_lin_4to16;
-
 
 architecture flot_don of bin_lin_4to16 is
 

@@ -1,3 +1,7 @@
+-- -----------------
+-- Labo 2 CSN 2020
+-- Auteur : Denis Bourqui
+-- -----------------
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -15,12 +19,13 @@ architecture comport of marche_normale is
     signal shifted_min_s :std_logic_vector(15 downto 0);
 
 begin
+    -- Extension du osc sur 16 bits
     osc_extented_s <= (others => osc_i);
+
+    -- Décallage du min 
     shifted_min_s <= '0' & min_lin_i(min_lin_i'high downto 1);
 
-
-
-    val_o <= x"0000" when val_lin_i < min_lin_i or val_lin_i > max_lin_i else
-                ((osc_extented_s and max_lin_i) or val_lin_i) and not shifted_min_s;
+    val_o <= x"0000" when val_lin_i < min_lin_i or val_lin_i > max_lin_i else -- hors de intervalles
+                ((osc_extented_s and max_lin_i) or val_lin_i) and not shifted_min_s; -- marche normale
 
 end comport;
