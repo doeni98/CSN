@@ -1,0 +1,315 @@
+TimeQuest Timing Analyzer report for add4
+Tue Oct 13 17:53:30 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Fmax Summary
+  6. Setup Summary
+  7. Hold Summary
+  8. Recovery Summary
+  9. Removal Summary
+ 10. Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Clock Transfers
+ 14. Report TCCS
+ 15. Report RSKM
+ 16. Unconstrained Paths
+ 17. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                       ;
++--------------------+--------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version ;
+; Revision Name      ; add4                                                               ;
+; Device Family      ; MAX V                                                              ;
+; Device Name        ; 5M40ZE64C4                                                         ;
+; Timing Models      ; Final                                                              ;
+; Delay Model        ; Slow Model                                                         ;
+; Rise/Fall Delays   ; Unavailable                                                        ;
++--------------------+--------------------------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-8         ;   0.0%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+----------------
+; Fmax Summary ;
+----------------
+No paths to report.
+
+
+-----------------
+; Setup Summary ;
+-----------------
+No paths to report.
+
+
+----------------
+; Hold Summary ;
+----------------
+No paths to report.
+
+
+--------------------
+; Recovery Summary ;
+--------------------
+No paths to report.
+
+
+-------------------
+; Removal Summary ;
+-------------------
+No paths to report.
+
+
+-------------------------------
+; Minimum Pulse Width Summary ;
+-------------------------------
+No paths to report.
+
+
++------------------------------------------------------+
+; Propagation Delay                                    ;
++------------+-------------+--------+----+----+--------+
+; Input Port ; Output Port ; RR     ; RF ; FR ; FF     ;
++------------+-------------+--------+----+----+--------+
+; cin_i      ; cout_o      ; 12.699 ;    ;    ; 12.699 ;
+; cin_i      ; ovr_o       ; 12.238 ;    ;    ; 12.238 ;
+; cin_i      ; somme_o[0]  ; 11.516 ;    ;    ; 11.516 ;
+; cin_i      ; somme_o[1]  ; 12.234 ;    ;    ; 12.234 ;
+; cin_i      ; somme_o[2]  ; 11.572 ;    ;    ; 11.572 ;
+; cin_i      ; somme_o[3]  ; 12.194 ;    ;    ; 12.194 ;
+; cin_i      ; somme_o[4]  ; 13.593 ;    ;    ; 13.593 ;
+; nbr_a_i[0] ; cout_o      ; 12.915 ;    ;    ; 12.915 ;
+; nbr_a_i[0] ; ovr_o       ; 12.454 ;    ;    ; 12.454 ;
+; nbr_a_i[0] ; somme_o[0]  ; 10.960 ;    ;    ; 10.960 ;
+; nbr_a_i[0] ; somme_o[1]  ; 12.450 ;    ;    ; 12.450 ;
+; nbr_a_i[0] ; somme_o[2]  ; 11.788 ;    ;    ; 11.788 ;
+; nbr_a_i[0] ; somme_o[3]  ; 12.410 ;    ;    ; 12.410 ;
+; nbr_a_i[0] ; somme_o[4]  ; 13.809 ;    ;    ; 13.809 ;
+; nbr_a_i[1] ; cout_o      ; 13.417 ;    ;    ; 13.417 ;
+; nbr_a_i[1] ; ovr_o       ; 12.956 ;    ;    ; 12.956 ;
+; nbr_a_i[1] ; somme_o[1]  ; 12.180 ;    ;    ; 12.180 ;
+; nbr_a_i[1] ; somme_o[2]  ; 12.290 ;    ;    ; 12.290 ;
+; nbr_a_i[1] ; somme_o[3]  ; 12.912 ;    ;    ; 12.912 ;
+; nbr_a_i[1] ; somme_o[4]  ; 14.311 ;    ;    ; 14.311 ;
+; nbr_a_i[2] ; cout_o      ; 12.568 ;    ;    ; 12.568 ;
+; nbr_a_i[2] ; ovr_o       ; 12.107 ;    ;    ; 12.107 ;
+; nbr_a_i[2] ; somme_o[2]  ; 10.682 ;    ;    ; 10.682 ;
+; nbr_a_i[2] ; somme_o[3]  ; 12.063 ;    ;    ; 12.063 ;
+; nbr_a_i[2] ; somme_o[4]  ; 13.462 ;    ;    ; 13.462 ;
+; nbr_a_i[3] ; cout_o      ; 12.601 ;    ;    ; 12.601 ;
+; nbr_a_i[3] ; ovr_o       ; 12.140 ;    ;    ; 12.140 ;
+; nbr_a_i[3] ; somme_o[3]  ; 11.279 ;    ;    ; 11.279 ;
+; nbr_a_i[3] ; somme_o[4]  ; 13.495 ;    ;    ; 13.495 ;
+; nbr_a_i[4] ; cout_o      ; 9.845  ;    ;    ; 9.845  ;
+; nbr_a_i[4] ; ovr_o       ; 10.432 ;    ;    ; 10.432 ;
+; nbr_a_i[4] ; somme_o[4]  ; 10.741 ;    ;    ; 10.741 ;
+; nbr_b_i[0] ; cout_o      ; 12.372 ;    ;    ; 12.372 ;
+; nbr_b_i[0] ; ovr_o       ; 11.911 ;    ;    ; 11.911 ;
+; nbr_b_i[0] ; somme_o[0]  ; 10.497 ;    ;    ; 10.497 ;
+; nbr_b_i[0] ; somme_o[1]  ; 11.907 ;    ;    ; 11.907 ;
+; nbr_b_i[0] ; somme_o[2]  ; 11.245 ;    ;    ; 11.245 ;
+; nbr_b_i[0] ; somme_o[3]  ; 11.867 ;    ;    ; 11.867 ;
+; nbr_b_i[0] ; somme_o[4]  ; 13.266 ;    ;    ; 13.266 ;
+; nbr_b_i[1] ; cout_o      ; 13.223 ;    ;    ; 13.223 ;
+; nbr_b_i[1] ; ovr_o       ; 12.762 ;    ;    ; 12.762 ;
+; nbr_b_i[1] ; somme_o[1]  ; 12.066 ;    ;    ; 12.066 ;
+; nbr_b_i[1] ; somme_o[2]  ; 12.096 ;    ;    ; 12.096 ;
+; nbr_b_i[1] ; somme_o[3]  ; 12.718 ;    ;    ; 12.718 ;
+; nbr_b_i[1] ; somme_o[4]  ; 14.117 ;    ;    ; 14.117 ;
+; nbr_b_i[2] ; cout_o      ; 11.393 ;    ;    ; 11.393 ;
+; nbr_b_i[2] ; ovr_o       ; 10.932 ;    ;    ; 10.932 ;
+; nbr_b_i[2] ; somme_o[2]  ; 9.444  ;    ;    ; 9.444  ;
+; nbr_b_i[2] ; somme_o[3]  ; 10.888 ;    ;    ; 10.888 ;
+; nbr_b_i[2] ; somme_o[4]  ; 12.287 ;    ;    ; 12.287 ;
+; nbr_b_i[3] ; cout_o      ; 12.271 ;    ;    ; 12.271 ;
+; nbr_b_i[3] ; ovr_o       ; 11.810 ;    ;    ; 11.810 ;
+; nbr_b_i[3] ; somme_o[3]  ; 10.869 ;    ;    ; 10.869 ;
+; nbr_b_i[3] ; somme_o[4]  ; 13.165 ;    ;    ; 13.165 ;
+; nbr_b_i[4] ; cout_o      ; 9.739  ;    ;    ; 9.739  ;
+; nbr_b_i[4] ; ovr_o       ; 11.068 ;    ;    ; 11.068 ;
+; nbr_b_i[4] ; somme_o[4]  ; 10.635 ;    ;    ; 10.635 ;
++------------+-------------+--------+----+----+--------+
+
+
++------------------------------------------------------+
+; Minimum Propagation Delay                            ;
++------------+-------------+--------+----+----+--------+
+; Input Port ; Output Port ; RR     ; RF ; FR ; FF     ;
++------------+-------------+--------+----+----+--------+
+; cin_i      ; cout_o      ; 12.660 ;    ;    ; 12.660 ;
+; cin_i      ; ovr_o       ; 12.199 ;    ;    ; 12.199 ;
+; cin_i      ; somme_o[0]  ; 11.490 ;    ;    ; 11.490 ;
+; cin_i      ; somme_o[1]  ; 12.196 ;    ;    ; 12.196 ;
+; cin_i      ; somme_o[2]  ; 11.522 ;    ;    ; 11.522 ;
+; cin_i      ; somme_o[3]  ; 12.155 ;    ;    ; 12.155 ;
+; cin_i      ; somme_o[4]  ; 13.554 ;    ;    ; 13.554 ;
+; nbr_a_i[0] ; cout_o      ; 12.889 ;    ;    ; 12.889 ;
+; nbr_a_i[0] ; ovr_o       ; 12.428 ;    ;    ; 12.428 ;
+; nbr_a_i[0] ; somme_o[0]  ; 10.960 ;    ;    ; 10.960 ;
+; nbr_a_i[0] ; somme_o[1]  ; 12.425 ;    ;    ; 12.425 ;
+; nbr_a_i[0] ; somme_o[2]  ; 11.751 ;    ;    ; 11.751 ;
+; nbr_a_i[0] ; somme_o[3]  ; 12.384 ;    ;    ; 12.384 ;
+; nbr_a_i[0] ; somme_o[4]  ; 13.783 ;    ;    ; 13.783 ;
+; nbr_a_i[1] ; cout_o      ; 13.403 ;    ;    ; 13.403 ;
+; nbr_a_i[1] ; ovr_o       ; 12.942 ;    ;    ; 12.942 ;
+; nbr_a_i[1] ; somme_o[1]  ; 12.180 ;    ;    ; 12.180 ;
+; nbr_a_i[1] ; somme_o[2]  ; 12.265 ;    ;    ; 12.265 ;
+; nbr_a_i[1] ; somme_o[3]  ; 12.898 ;    ;    ; 12.898 ;
+; nbr_a_i[1] ; somme_o[4]  ; 14.297 ;    ;    ; 14.297 ;
+; nbr_a_i[2] ; cout_o      ; 12.568 ;    ;    ; 12.568 ;
+; nbr_a_i[2] ; ovr_o       ; 12.107 ;    ;    ; 12.107 ;
+; nbr_a_i[2] ; somme_o[2]  ; 10.682 ;    ;    ; 10.682 ;
+; nbr_a_i[2] ; somme_o[3]  ; 12.063 ;    ;    ; 12.063 ;
+; nbr_a_i[2] ; somme_o[4]  ; 13.462 ;    ;    ; 13.462 ;
+; nbr_a_i[3] ; cout_o      ; 12.575 ;    ;    ; 12.575 ;
+; nbr_a_i[3] ; ovr_o       ; 12.114 ;    ;    ; 12.114 ;
+; nbr_a_i[3] ; somme_o[3]  ; 11.279 ;    ;    ; 11.279 ;
+; nbr_a_i[3] ; somme_o[4]  ; 13.469 ;    ;    ; 13.469 ;
+; nbr_a_i[4] ; cout_o      ; 9.845  ;    ;    ; 9.845  ;
+; nbr_a_i[4] ; ovr_o       ; 10.432 ;    ;    ; 10.432 ;
+; nbr_a_i[4] ; somme_o[4]  ; 10.741 ;    ;    ; 10.741 ;
+; nbr_b_i[0] ; cout_o      ; 12.345 ;    ;    ; 12.345 ;
+; nbr_b_i[0] ; ovr_o       ; 11.884 ;    ;    ; 11.884 ;
+; nbr_b_i[0] ; somme_o[0]  ; 10.497 ;    ;    ; 10.497 ;
+; nbr_b_i[0] ; somme_o[1]  ; 11.881 ;    ;    ; 11.881 ;
+; nbr_b_i[0] ; somme_o[2]  ; 11.207 ;    ;    ; 11.207 ;
+; nbr_b_i[0] ; somme_o[3]  ; 11.840 ;    ;    ; 11.840 ;
+; nbr_b_i[0] ; somme_o[4]  ; 13.239 ;    ;    ; 13.239 ;
+; nbr_b_i[1] ; cout_o      ; 13.208 ;    ;    ; 13.208 ;
+; nbr_b_i[1] ; ovr_o       ; 12.747 ;    ;    ; 12.747 ;
+; nbr_b_i[1] ; somme_o[1]  ; 12.066 ;    ;    ; 12.066 ;
+; nbr_b_i[1] ; somme_o[2]  ; 12.070 ;    ;    ; 12.070 ;
+; nbr_b_i[1] ; somme_o[3]  ; 12.703 ;    ;    ; 12.703 ;
+; nbr_b_i[1] ; somme_o[4]  ; 14.102 ;    ;    ; 14.102 ;
+; nbr_b_i[2] ; cout_o      ; 11.393 ;    ;    ; 11.393 ;
+; nbr_b_i[2] ; ovr_o       ; 10.932 ;    ;    ; 10.932 ;
+; nbr_b_i[2] ; somme_o[2]  ; 9.444  ;    ;    ; 9.444  ;
+; nbr_b_i[2] ; somme_o[3]  ; 10.888 ;    ;    ; 10.888 ;
+; nbr_b_i[2] ; somme_o[4]  ; 12.287 ;    ;    ; 12.287 ;
+; nbr_b_i[3] ; cout_o      ; 12.246 ;    ;    ; 12.246 ;
+; nbr_b_i[3] ; ovr_o       ; 11.785 ;    ;    ; 11.785 ;
+; nbr_b_i[3] ; somme_o[3]  ; 10.869 ;    ;    ; 10.869 ;
+; nbr_b_i[3] ; somme_o[4]  ; 13.140 ;    ;    ; 13.140 ;
+; nbr_b_i[4] ; cout_o      ; 9.739  ;    ;    ; 9.739  ;
+; nbr_b_i[4] ; ovr_o       ; 11.068 ;    ;    ; 11.068 ;
+; nbr_b_i[4] ; somme_o[4]  ; 10.635 ;    ;    ; 10.635 ;
++------------+-------------+--------+----+----+--------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 11    ; 11   ;
+; Unconstrained Input Port Paths  ; 57    ; 57   ;
+; Unconstrained Output Ports      ; 7     ; 7    ;
+; Unconstrained Output Port Paths ; 57    ; 57   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+    Info: Processing started: Tue Oct 13 17:53:29 2020
+Info: Command: quartus_sta add4 -c add4
+Info: qsta_default_script.tcl version: #1
+Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (306004): Started post-fitting delay annotation
+Info (306005): Delay annotation completed successfully
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'add4.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 482 megabytes
+    Info: Processing ended: Tue Oct 13 17:53:30 2020
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

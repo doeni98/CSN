@@ -22,16 +22,17 @@ library ieee;
   use ieee.std_logic_1164.all;
   use ieee.numeric_std.all;
 
-entity add4 is
-  port (nbr_a_i   : in  std_logic_Vector(3 downto 0);
-        nbr_b_i   : in  std_logic_Vector(3 downto 0);
+entity addn is
+  generic( N_g : Positive range 1 to 16 := 11);
+  port (nbr_a_i   : in  std_logic_Vector(N_g downto 0);
+        nbr_b_i   : in  std_logic_Vector(N_g downto 0);
         cin_i      : in  std_logic;
-        somme_o    : out std_logic_Vector(3 downto 0);
+        somme_o    : out std_logic_Vector(N_g downto 0);
         cout_o     : out std_Logic;
         ovr_o      : out std_logic  );
-end add4;
+end addn;
 
-architecture flot_don of add4 is
+architecture flot_don of addn is
 
   -- signaux internes
   signal nb_a_s : unsigned(nbr_a_i'left+1 downto 0);
