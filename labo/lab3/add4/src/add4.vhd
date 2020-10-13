@@ -1,0 +1,48 @@
+-----------------------------------------------------------------------
+-- HEIG-VD, Haute Ecole d'Ingenierie et de Gestion du canton de Vaud
+-- Institut REDS, Reconfigurable & Embedded Digital Systems
+--
+-- Fichier      : add4_c_o.vhd
+-- Description  : Additionneur 4 bits avec carry in,
+--                carry out et overflow out
+--
+-- Auteur       : E. Messerli
+-- Date         : 10.10.2014
+-- Version      : 1.0
+--
+-- Utilise      : Exercice cours VHDL
+--
+--| Modifications |-----------------------------------------------------------
+-- Ver   Auteur Date         Description
+-- 2.0    EMI   03-03-2016   Version additionneur avec c_in, c_out et ovr_out
+--
+------------------------------------------------------------------------------
+
+library ieee;
+  use ieee.std_logic_1164.all;
+  use ieee.numeric_std.all;
+
+entity add4 is
+  port (nbr_a_i   : in  std_logic_Vector(3 downto 0);
+        nbr_b_i   : in  std_logic_Vector(3 downto 0);
+        cin_i      : in  std_logic;
+        somme_o    : out std_logic_Vector(3 downto 0);
+        cout_o     : out std_Logic;
+        ovr_o      : out std_logic  );
+end add4;
+
+architecture flot_don of add4 is
+
+  -- signaux internes
+  signal nb_a_s : unsigned(nbr_a_i'left downto 0);
+  signal nb_b_s : unsigned(nbr_b_i'left downto 0); 
+  
+  
+  --component declaration
+
+begin
+
+ 
+ 
+
+end flot_don;
