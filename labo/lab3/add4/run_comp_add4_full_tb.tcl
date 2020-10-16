@@ -31,10 +31,10 @@ vcom -reportprogress 300 -work work   ../src/add4Full.vhd
 vcom -reportprogress 300 -work work   ../src_tb/add4_full_tb.vhd
 
 #Chargement fichier pour la simulation
-vsim -voptargs="+acc" work.add4_full_tb
+vsim -voptargs=\"+acc\" work.add4_tb
 
 #ajout signaux composant simuler dans la fenetre wave
-#add wave UUT/*
+add wave UUT/*
 
 #ouvre le fichier format predefini
 do wave_add4_tb.do

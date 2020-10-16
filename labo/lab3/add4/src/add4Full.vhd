@@ -23,7 +23,7 @@ library ieee;
   use ieee.numeric_std.all;
 
 entity add4full is
-  generic( N_g : Positive range 1 to 16 := 4);
+  generic( N_g : Positive range 1 to 16 := 3);
   port (nbr_a_i   : in  std_logic_Vector(N_g downto 0);
         nbr_b_i   : in  std_logic_Vector(N_g downto 0);
         cin_i      : in  std_logic;
@@ -52,8 +52,8 @@ begin
   nb_a_low_s <= "0" & unsigned(nbr_a_i(nbr_a_i'left - 1 downto 0)); -- nb_a(n-2 .. 0)
   nb_b_low_s <= "0" & unsigned(nbr_b_i(nbr_b_i'left - 1 downto 0)); -- nb_b(n-2 .. 0)
   
-  nb_a_high_s(0) <= nbr_a_i(nbr_a_i'left);
-  nb_b_high_s(0) <= nbr_b_i(nbr_b_i'left);
+  nb_a_high_s <= "0" & nbr_a_i(nbr_a_i'left);
+  nb_b_high_s <= "0" & nbr_b_i(nbr_b_i'left);
   
   cin_s(0) <= cin_i;
 	
