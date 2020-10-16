@@ -16,7 +16,7 @@
 -- 2.0   G. Matthey   16.10.2015  Ajout test signal Overflow (ovr_o)
 -- 2.1   E. Messerli  21.10.2015  Mis a jour commentaire generation ovr_ref
 --                                et modifie nom achitecture add4: struct 
--- 2.2   E. Messerli  03-03-2016  Modifier nom entité tb et add4
+-- 2.2   E. Messerli  03-03-2016  Modifier nom entitï¿½ tb et add4
 -- 2.3   E. Messerli  06-03-2017  Modifier nom architecture
 --
 ------------------------------------------------------------------------------
@@ -44,7 +44,7 @@ architecture test_bench_full of add4_tb is
           ovr_o      : out std_logic  );
   end component;
 
-  for all : add4 use entity work.add4;
+  for all : add4 use entity work.add4full;
 
   -- constantes internes au test-bench
   constant Pas_Sim_c   : time := 100 ns;
@@ -100,7 +100,7 @@ begin
     --initialisation
     Nbr_Err_v := 0; 
 
-    report "Début de la simulation";
+    report "Dï¿½but de la simulation";
 
     for I_NbrA in 0 to 2**N-1 loop
       for I_NbrB in 0 to 2**N-1 loop
@@ -176,7 +176,7 @@ begin
       end loop;
     end loop;
 
-    report "Nombre d'erreurs détectées = " & integer'image(Nbr_Err_v);
+    report "Nombre d'erreurs dï¿½tectï¿½es = " & integer'image(Nbr_Err_v);
     report "Fin de la simulation";
 
     wait;  --Attente infinie, stop la simulation
