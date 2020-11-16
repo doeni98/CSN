@@ -1,0 +1,12 @@
+P	Q	op	errDetection	Bit n+1
+------------------------------------------------
+non	non	+	Cn		Cn
+non	non	-	Not(cn)		Not(cn)
+sig	sig	+/-	ovr		ovr xor bit(n)
+
+
+ovr = cn xor cn-1
+
+
+non : non signé
+sig : signé
