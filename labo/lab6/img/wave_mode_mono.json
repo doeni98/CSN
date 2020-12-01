@@ -1,0 +1,17 @@
+{signal: [
+  
+  {name: "pclk", wave: 'p.......'},
+  {name: 'nreset_i', wave:'01......'},
+  {name: 'val_i', wave:'x=......', data:["3"]},
+  {name: 'Mono_nDiv_i', wave:'0..1....'},
+  {name: 'run_mono_i', wave:'0..1...0'},
+  
+  {name: 'done_o', wave:'0....1.0'},
+  
+  {name: 'cpt_interne', wave:'x.====.=', data:["3", "2", "1", "0","3"]},
+  
+  {name: 'equal_s', wave:'0....1.0'},
+  {name: 'load_s', wave:'01.0...1'},
+  {name: 'decremente_s', wave:'0..1..0.'},
+  {name: 'Etat', wave:'x=.=..==', data:["load", "decremente", "hold", "load"]},
+]}
